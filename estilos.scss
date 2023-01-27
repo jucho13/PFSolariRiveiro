@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Sofia+Sans+Semi+Condensed:ital@1&display=swap');
+
+$font1:'Lato', sans-serif;
+$color1:grey;
+$color2:beige;
+$color3:chocolate;
+$color4:black;
+$color5:#333;
+$padding1:20px;
+$padding2:15px;
+$padding3:60px;
+
+*
+{
+    font-family: $font1;
+}
+body
+{
+    background-color: $color2;
+}
+.navbar-brand
+{
+    color: $color1;
+    span
+    {
+        color: $color3;
+    }
+}
+.nav-link
+{
+    color: $color4;
+}
+.container
+{
+    background-color:$color2;
+}
+.carousel
+{
+    padding:$padding2;
+    background-color: $color2;
+}
+.carousel-slide
+{
+    background-color: $color2;
+}
+.carousel-item
+{
+    h5
+    {
+        background-color: $color4;
+        opacity: 20%;
+    }
+    p
+    {
+        text-align: center;
+        opacity: 20%;
+    }
+}
+h2
+{
+    text-align: center;
+    padding: $padding1;
+}
+.section1
+{
+    padding: $padding3;
+    background-color: $color2;
+}
+.section2
+{
+    padding: $padding3;
+    background-color: $color2;
+}
+.section3
+{
+    padding: $padding3;
+    background-color: $color2;
+}
+h2
+{
+    background-color: $color2;
+}
+.form-group
+{
+    padding: $padding2;
+}
+.card
+{
+    padding: $padding1;
+    margin: 20px;
+}
+.section4
+{
+    padding: $padding3;
+    background-color:$color2;
+}
+footer
+{
+    background-color: $color2;
+    color: $color3;
+    text-align: center;
+    font-size: 30px;
+    font-family: $font1;
+    text-transform: capitalize;
+    padding: $padding1;
+    margin: 20px;
+}
+footer i
+{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: $color5;
+}
+.subir
+{
+    height: 40px;
+    width: 40px;
+    background-color: $color4;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
